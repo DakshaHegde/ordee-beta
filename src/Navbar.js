@@ -79,12 +79,14 @@ function Navbar({username}) {
             <Link>
             <IoIcons.IoIosAddCircle className="add_card"onClick={Add_Card}/>
             <img
-              className="user_icon"
+              className="user_icon"  
               src="https://www.searchpng.com/wp-content/uploads/2019/02/Profile-ICon.png"
               alt=""
               onClick={() => auth.signOut()}
             />
+            <div className="username">
             <h6 className="name">{name}</h6>
+            </div>
             </Link>
            
             

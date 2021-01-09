@@ -13,17 +13,17 @@ function Cardflip({table,index,user}) {
 
         if(table === 'bill'){
            return <img className="bill"
-                 src={"./bill.jpeg"}
+                 src={"./bill.gif"}
                  alt=""
                  onClick={deletes}/>
          }else if(table === 'waiter'){
             return <img className="bill"
-            src={"./waiter.jpeg"}
+            src={'./waiter.jpeg'}
             alt=""
             onClick={deletes}/>
          }else if(table === 'hey' || table === "Hey"){
             return <img className="bill"
-            src={"./hey.jpeg"}
+            src={'./countdown.gif'}
             alt=""
             onClick={deletes}/>
          }
